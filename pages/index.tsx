@@ -7,7 +7,8 @@ import Benefits from "@/components/Benefits";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import CaseStudies from "@/components/CaseStudies";
-
+import Testimonials from "@/components/Testimonials";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -19,10 +20,12 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        <Benefits/>
-        <Services/>
-        <Team/>
-        <CaseStudies/>
+        <Benefits />
+        <Services />
+        <Team />
+        <CaseStudies />
+        <Testimonials />
+        <Contact/>
       </main>
     </Layout>
   );

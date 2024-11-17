@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Syne, Inter } from "next/font/google";
+import Footer from "./Footer";
 
 type LayoutProps = {
   title: string;
@@ -28,6 +29,7 @@ export default function Layout({
         <meta name="keywords" content={keywords} />
       </Head>
       {children}
+      <Footer/>
     </div>
   );
 }

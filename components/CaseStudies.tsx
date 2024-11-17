@@ -82,10 +82,16 @@ export function CaseStudyCard({
   achievement,
 }: CaseStudyProps) {
   return (
-    <div className="border rounded-md flex px-2 pt-2 pb-5 md:p-5">
+    <div className="border rounded-md flex px-2 pt-2 pb-5 md:p-5 hover:cursor-pointer">
       <div className="grid md:grid-cols-2 md:gap-16">
         <div>
-          <Image src={imgDir} height={720} width={1280} alt="case-study" className="rounded-lg" />
+          <Image
+            src={imgDir}
+            height={720}
+            width={1280}
+            alt="case-study"
+            className="rounded-lg"
+          />
         </div>
         <div className="mt-5">
           <p className="text-slate-700 font-light">{company}</p>
